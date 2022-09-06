@@ -1,4 +1,4 @@
-# pokemon-battle-web-app
+# pokemon-front-end
 
 ## Project setup
 ```
