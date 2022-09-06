@@ -16,6 +16,10 @@
 **If the 1st 2 round winner is not the same then round 3 will decide the winner.**
 ![image](https://user-images.githubusercontent.com/6628742/188548103-e75dd309-c560-405e-9496-fd212d8b7a46.png)
 
+**Using the "Retry" button user can go back to the main view and choose pokemon again to fight.
+![image](https://user-images.githubusercontent.com/6628742/188559329-636dac0e-02f1-4ae1-8ccf-21e948c32ed0.png)
+![image](https://user-images.githubusercontent.com/6628742/188559406-0eddfe1d-4395-4372-ace5-2bc4c955e480.png)
+
 To minimize the load time, pokemon list information is stored into the localStorage. If the information is not available into the localStorage, then it will load data using the API.
 
 ````
