@@ -26,7 +26,7 @@ public class PokemonService {
 	private RestTemplate template = new RestTemplate();
 
 	
-	@Cacheable(cacheNames = "findAllPokemons", cacheManager = "cachefindAllPokemons")
+	//@Cacheable(cacheNames = "findAllPokemons", cacheManager = "cachefindAllPokemons")
 	public List<Pokemon> findAllPokemons() {
 		List<Pokemon> pokemonList = new ArrayList<>();
 		for (int pid = 1; pid <= apiLimit; pid++) {
